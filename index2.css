@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+html,body {
+    height: 100vw;
+    width: 100vw;
+    font-family: "Ubuntu Condensed", sans-serif;
+    background-color: bisque;
+}
+
+.row{
+    display: flex;
+    margin: 8px 0px;
+}
+.row input {
+    margin: 5px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+button{
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 800    ;
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 56px;
+}
